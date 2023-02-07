@@ -15,42 +15,136 @@
         <li><a class="nav-link skills" href="#skills">SKILLS</a></li>
         <li><a class="nav-link projects" href="#projects">PROJECTS</a></li>
         <li><a class="nav-link contact" href="#contact">CONTACT</a></li>
-        <li><a class="nav-link resume" href="#resume">RESUME</a></li>
-       <li> <a href="./resume/Shanuka_Jain_Resume.pdf"><button id="resume-button-1">Resume</button></a> </li>
-      <!-- <li><a class="nav-link resume" href="#"></a></li> -->
-        </ul>
+        <li><a class="nav-link resume" href="#"></a></li>
+        <a
+          id="resume-button-1"
+          onclick="window.open('./resume/Shanuka_Jain_Resume.pdf', '_blank');"
+          download=""
+          >Resume</a
+        >
+      </ul>
     </nav>
-      <section id="home">
-        <img src="./images/Shanuka Jain.png" class="home-img" alt="">
-        <h1 id="user-detail-name" >SHANUKA JAIN</h1>
-        <h2 id="user-detail-intro"> I am a Developer</h2>
-        <a href="./resume/Shanuka_Jain_Resume.pdf"><button id="resume-button-2">Resume</button></a>
-      </section>
-      <section id="about" class="about section">
-        <title id="user-detail-intro">ABOUT</title>
-      <h1>About</h1>
-      <!-- <a href="./resume/Shanuka_Jain_Resume.pdf"><button id="resume-button-1">Resume</button></a> -->
-      <h3>Hi I am shanuka jain from kota Rajsthan HTML CSS Java Script Node js Express</h3>
-      <!-- <a href="./resume/Shanuka_Jain_Resume.pdf"><button id="resume-button-2">Resume</button></a>  -->
-      </section>
-      <section id="skills">
-        <h1>Skills</h1>
-        <h3 class="skills-card">HTML</h3>
-        <h3 class="skills-card">CSS</h3>
-        <h3 class="skills-card">Java Script</h3>
-        <h3 class="skills-card">Node Js</h3>
-        </section>
-      <section id="projects">Projects</section>
-      <section id="contact">
-        <h1>Contact</h1>
-        <a id="contact-github" href="https://github.com/shanukajain">GitHub</a>
-        <a id="contact-linkedin" href="https://www.linkedin.com/in/shanukajain/">LinkedIn</a>
-        <a id="contact-phone" href="#">Mobile</a>
-        <a id="contact-email" href="jain.shanuka@gmail.com">Email</a>
-      </section>
-      <section id="resume">
-        <a href="./resume/Shanuka_Jain_Resume.pdf"><button id="resume-button-2">Resume</button></a>
-      </section>
-</body>
+    <!-------------------- HOME ---------------------->
+    <section id="home">
+      <img src="./images/Shanuka Jain.png" class="home-img" alt="#" />
+      <a
+        id="resume-button-2"
+        onclick="window.open('./resume/Shanuka_Jain_Resume.pdf', '_blank');"
+        download=""
+        >Resume2</a
+      >
+    </section>
+    <!-------------------- ABOUT ---------------------->
+    <section id="about" class="about section">
+      <title>About</title>
+      <h1 id="user-detail-name">Shanuka Jain</h1>
+      <h2 id="user-detail-intro">
+        I am a Developer who know HTML, CSS, JAVASCRIPT, NODEJS, EXPRESS.JS,
+        MONGODB, POSTMAN
+      </h2>
+    </section>
+    <!-------------------- SKILLS ---------------------->
+    <section id="skills">
+      <div class="skills-card">
+        <img
+          class="skills-card-img"
+          src="./images/node.jpeg"
+          alt="nodejs.png"
+        />
+        <h5 class="skills-card-name">Node JS</h5>
+      </div>
+      <div class="skills-card">
+        <img
+          class="skills-card-img"
+          src="./images/express.jpeg"
+          alt="express.png"
+        />
+        <h5 class="skills-card-name">Express JS</h5>
+      </div>
+      <div class="skills-card">
+        <img
+          class="skills-card-img"
+          src="./images/mongoDB.jpeg"
+          alt="mongodb.png"
+        />
+        <h5 class="skills-card-name">Mongo DB</h5>
+      </div>
+    </section>
+    <!-------------------- PROJECTS ---------------------->
+    <section id="projects">
+      <!-- 1 -->
+      <div class="project-card">
+        <!-- <img src="./image/homedecor.png" alt=""> -->
+        <title class="project-title">HomeDecor</title>
+        <p class="project-description">Description</p>
+        <p class="project-tech-stack">Tech Stack</p>
+        <a class="project-github-link" href="https://github.com/shanukajain/wonderful-kiss-9318.git">GitHub</a>
+        <a class="project-deployed-link"href="https://myshoppinghub.netlify.app">Netlify</a>
+      </div>
+      <!-- 2 -->
+      <div class="project-card">
+        <!-- <img src="./image/mytv.png "alt=""> -->
+        <title class="project-title">MyTv</title>
+        <p class="project-description">Description</p>
+        <p class="project-tech-stack">Tech Stack</p>
+        <a class="project-github-link" href="https://github.com/shanukajain/wonderful-kiss-9318.git">GitHub</a>
+        <a class="project-deployed-link"href="https://myshoppinghub.netlify.app">Netlify</a>
+      </div>
+      <!-- 3 -->
+      <div class="project-card">
+        <!-- <img src="./image/yellowcart.png" alt=""> -->
+        <title class="project-title">YellowCart</title>
+        <p class="project-description">Description</p>
+        <p class="project-tech-stack">Tech Stack</p>
+        <a class="project-github-link" href="https://github.com/rajeshuser/tall-question-6900.git">GitHub</a>
+        <a class="project-deployed-link"href="https://kpc.netlify.app/">Netlify</a>
+      </div>
+      <!-- 4 -->
+      <div class="project-card">
+        <!-- <img src="./image/timer.png" alt=""> -->
+        <title class="project-title">Timer</title>
+        <p class="project-description">Description</p>
+        <p class="project-tech-stack">Tech Stack</p>
+        <a class="project-github-link" href="https://github.com/shanukajain/hilarious-flame-4763.git">GitHub</a>
+        <a class="project-deployed-link"href="https://mywants.netlify.app/">Netlify</a>
+      </div>
+    </section>
+    <!-------------------- CONTACTS ---------------------->
+    <section id="contact">
+      <h1>Contact</h1>
+      <a id="contact-github" href="https://github.com/shanukajain">GitHub</a>
+      <a id="contact-linkedin" href="https://www.linkedin.com/in/shanukajain/"
+        >LinkedIn</a
+      >
+      <a id="contact-phone" href="#">Mobile</a>
+      <a id="contact-email" href="jain.shanuka@gmail.com">Email</a>
+    </section>
+    <!-------------------- RESUME ---------------------->
+    <section id="resume"></section>
+    <!-------------------- GitHUB ---------------------->
+    <section class="react-activity-calendar">
+      <h1>GitHub React-Activity-Calendar</h1>
+      <img
+        id="github-streak-stats"
+        src="https://github-readme-streak-stats.herokuapp.com?user=shanukajain&theme=radical&hide_border=true&border_radius=6.5&date_format=M%20j%5B%2C%20Y%5D"
+        alt="streakstat"
+      />
+      <img
+        id="github-top-langs"
+        src="https://github-readme-stats.vercel.app/api/top-langs/?username=shanukajain&theme=outrun"
+        alt="top_languages"
+      />
+      <img
+        id="github-stats-card"
+        src="https://github-readme-stats.vercel.app/api?username=shanukajain&count_private=true"
+        alt="stat-card"
+      />
+      <img
+      id="github-stats-card"
+      src="https://github-readme-stats.vercel.app/api/wakatime?username=shanukajain"
+      alt="stat-card"
+    />
+    [![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=willianrod)](https://github.com/anuraghazra/github-readme-stats)
+    </section>
+  </body>
 </html>
-<script></script>
