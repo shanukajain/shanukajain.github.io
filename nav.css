@@ -12,6 +12,10 @@
     width: 100%;
     background-color: #0b9ca1;
     position: relative;
+    top:0;
+    z-index: 6;
+    width: 100%;
+    position: fixed;
   }
   
   .nav > .nav-header {
@@ -79,7 +83,9 @@
     margin-left: 5px;
  }
 
-  
+  a{
+    text-decoration: none;
+  }
   @media (max-width:750px) {
     .nav > .nav-btn {
       display: inline-block;

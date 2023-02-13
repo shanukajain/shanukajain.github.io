@@ -1,0 +1,9 @@
+#about{
+    margin: auto;
+    /* display: flex; */
+    text-align: center;
+    color: #0b9ca1;
+}
+#about_resume{
+    font-size: 30px;
+}

@@ -1,7 +1,7 @@
 #home{
     display: flex;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 70px;
     justify-content: space-evenly;
 }
 
@@ -15,3 +15,23 @@ font-size: 50px;
 margin-top: 190px;
 color: #0b9ca1;
 }
+
+
+
+/* contact */
+#contact{
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: center;
+    /* margin-top: 2.5rem; */
+    color: #0b9ca1;
+  }
+
+  /* react-activity-calendar */
+  .react-activity-calendar{
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: center;
+    /* margin-top: 2.5rem; */
+    color: #0b9ca1; 
+  }

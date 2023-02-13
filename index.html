@@ -9,6 +9,9 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="./nav.css" />
     <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="./about.css">
+    <link rel="stylesheet" href="./skills.css">
+    <link rel="stylesheet" href="./project.css">
   </head>
   <body>
     <nav id="nav-menu" class="nav-links">
@@ -56,14 +59,15 @@
                 >RESUME</a
               ></li>
           <a class="icon">
-            <i class="material-icons" style="font-size:25px">&#xe158;</i>
-            <i class="fa fa-linkedin"style="font-size:25px"></i>
-            <i class="fa fa-github"style="font-size:25px"></i>
+           <a href="jain.shanuka@gmail.com"> <i class="material-icons" style="font-size:25px">&#xe158;</i></a>
+            <a href="https://www.linkedin.com/in/shanukajain/"><i class="fa fa-linkedin"style="font-size:25px"></i></a>
+           <a href="https://github.com/shanukajain"><i class="fa fa-github"style="font-size:25px"></i></a> 
           </a>
             </ul>
         </div>
       </div>
     </nav>
+    <hr>
     <!-------------------- HOME ---------------------->
     <section id="home">
       <h1 id="user-detail-name" >Shanuka Jain <br> Full Stack Developer</h1>
@@ -77,14 +81,66 @@
       id="resume-button-2"
       onclick="window.open('./resume/Shanuka_Jain_Resume.pdf', '_blank');"
       download=""
-      ><button id="about_resume"style="text-align: right;">Resume</button></a>
+      ><h3 id="about_resume">Resume    <i class="fa fa-download"></i></h3></a>
       <h2 id="user-detail-intro">
         I am a Developer who know HTML, CSS, JAVASCRIPT, NODEJS, EXPRESS.JS,
         MONGODB, POSTMAN
       </h2>
     </section>
+    <hr>
     <!-------------------- SKILLS ---------------------->
-    <section id="skills">
+    <section class="skills1" id="skills">
+      <h2 class="skill-header">My Skills</h2>
+      <div class="skills-card">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+          class="skills-card-img"
+            src="./images/node.jpeg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+          class="skills-card-img"
+            src="./images/mongoDB.jpeg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+          class="skills-card-img"
+            src="./images/express.jpeg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+        <div class="second-set animate__animated animate__pulse">
+          <img
+          class="skills-card-img"
+            src="./images/express.jpeg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+          class="skills-card-img"
+            src="./images/mongoDB.jpeg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+          class="skills-card-img"
+            src="./images/node.jpeg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- <section id="skills">
       <div class="skills-card">
         <img
           class="skills-card-img"
@@ -109,10 +165,13 @@
         />
         <h5 class="skills-card-name">Mongo DB</h5>
       </div>
-    </section>
+    </section> -->
+    <hr>
     <!-------------------- PROJECTS ---------------------->
     <section id="projects">
       <!-- 1 -->
+      <h1>Projects</h1>
+      <div id="projectsdiv"> 
       <div class="project-card">
         <img src="./images/log.png" alt="">
         <title class="project-title">myshoppinghub</title>
@@ -148,18 +207,9 @@
         <a class="project-github-link" href="https://github.com/shanukajain/hilarious-flame-4763.git">GitHub</a>
         <a class="project-deployed-link"href="https://mywants.netlify.app/">Netlify</a>
       </div>
+    </div>
     </section>
-    <!-------------------- CONTACTS ---------------------->
-    <section id="contact">
-      
-      <h1>Contact</h1>
-      <a id="contact-github" href="https://github.com/shanukajain">GitHub</a>
-      <a id="contact-linkedin" href="https://www.linkedin.com/in/shanukajain/"
-        >LinkedIn</a
-      >
-      <a id="contact-phone" href="#">Mobile</a>
-      <a id="contact-email" href="jain.shanuka@gmail.com">Email</a>
-    </section>
+    <hr>
     <!-------------------- RESUME ---------------------->
     <section id="resume"></section>
     <!-------------------- GitHUB ---------------------->
@@ -198,6 +248,16 @@ href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.c
 
 
  </section>
+ <!-------------------- CONTACTS ---------------------->
+ <section id="contact">
+      
+  <h1>Contact</h1>
+  <a id="contact-github" href="https://github.com/shanukajain">GitHub  </a>
+  <a id="contact-linkedin" href="https://www.linkedin.com/in/shanukajain/">LinkedIn  </a
+  >
+  <a id="contact-phone" href="#">Mobile  </a>
+  <a id="contact-email" href="jain.shanuka@gmail.com">Email  </a>
+</section>
   </body>
 </html>
 <script src="./gitcalender.js"></script>

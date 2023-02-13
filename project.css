@@ -1,0 +1,19 @@
+#projectsdiv{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:10px
+  }
+  #projects {
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: center;
+    /* margin-top: 2.5rem; */
+    color: #0b9ca1;
+  }
+  @media (max-width:750px) {
+    #projectsdiv{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+      
+      }
+  }
