@@ -5,39 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HOME PAGE</title>
-    <link rel="stylesheet" href="./style/index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <nav id="nav-menu">
-      <ul>
+    <nav id="nav-menu" class="nav-links">
+      <ul id="navbar">
         <li><a class="nav-link home" href="#home">HOME</a></li>
         <li><a class="nav-link about" href="#about">ABOUT</a></li>
         <li><a class="nav-link skills" href="#skills">SKILLS</a></li>
         <li><a class="nav-link projects" href="#projects">PROJECTS</a></li>
         <li><a class="nav-link contact" href="#contact">CONTACT</a></li>
-        <li><a class="nav-link resume" href="#"></a></li>
-        <a
+       <li> <a
           id="resume-button-1"
           onclick="window.open('./resume/Shanuka_Jain_Resume.pdf', '_blank');"
           download=""
-          >Resume</a
-        >
+          >RESUME</a
+        ></li>
       </ul>
     </nav>
     <!-------------------- HOME ---------------------->
     <section id="home">
       <img src="./images/Shanuka Jain.png" class="home-img" alt="#" />
-      <a
-        id="resume-button-2"
-        onclick="window.open('./resume/Shanuka_Jain_Resume.pdf', '_blank');"
-        download=""
-        >Resume2</a
-      >
+
+      
     </section>
     <!-------------------- ABOUT ---------------------->
     <section id="about" class="about section">
       <title>About</title>
       <h1 id="user-detail-name">Shanuka Jain</h1>
+      <a
+      id="resume-button-2"
+      onclick="window.open('./resume/Shanuka_Jain_Resume.pdf', '_blank');"
+      download=""
+      ><button id="about_resume"style="text-align: right;">Resume</button></a>
       <h2 id="user-detail-intro">
         I am a Developer who know HTML, CSS, JAVASCRIPT, NODEJS, EXPRESS.JS,
         MONGODB, POSTMAN
@@ -111,6 +113,7 @@
     </section>
     <!-------------------- CONTACTS ---------------------->
     <section id="contact">
+      
       <h1>Contact</h1>
       <a id="contact-github" href="https://github.com/shanukajain">GitHub</a>
       <a id="contact-linkedin" href="https://www.linkedin.com/in/shanukajain/"
@@ -139,12 +142,24 @@
         src="https://github-readme-stats.vercel.app/api?username=shanukajain&count_private=true"
         alt="stat-card"
       />
-      <img
-      id="github-stats-card"
-      src="https://github-readme-stats.vercel.app/api/wakatime?username=shanukajain"
-      alt="stat-card"
-    />
-    [![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=willianrod)](https://github.com/anuraghazra/github-readme-stats)
-    </section>
+      <!-- Include the library. -->
+<script
+src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+</script>
+
+<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+<link
+rel="stylesheet"
+href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+/>
+
+<!-- Prepare a container for your calendar. -->
+<div class="calendar">
+  <!-- Loading stuff -->
+</div>
+
+
+ </section>
   </body>
 </html>
+<script src="./gitcalender.js"></script>
