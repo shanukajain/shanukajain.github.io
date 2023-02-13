@@ -10,7 +10,7 @@
   .nav {
     height: 50px;
     width: 100%;
-    background-color: #1177ca;
+    background-color: #0b9ca1;
     position: relative;
   }
   
@@ -54,12 +54,12 @@
   }
   .nav > .nav-links > ul li{
     display: inline-block;
-    background-color: #1177ca;
+    background-color: #0b9ca1;
     
     
   }
   .nav > .nav-links > ul li:hover{
-      background-color: #0b65af;
+      background-color: #0b9ca1;
       border-radius: 5px;
   }
   
