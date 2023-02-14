@@ -18,18 +18,20 @@ color: #0b9ca1;
 
 
 
+
 /* contact */
 #contact{
-  
-    max-width: 68.75rem;
+  background-color: #0b9ca1 ;
+    /* max-width: 68.75rem; */
     margin: auto;
     text-align: center;
     /* margin-top: 2.5rem; */
-    color: #0b9ca1;
+    color: white;
+    padding-bottom: 50px;
   }
-  a{
+  #contact a{
     text-decoration: none;
-    color: #0b9ca1;
+    color: white;
   }
   /* react-activity-calendar */
   .react-activity-calendar{
