@@ -10,8 +10,8 @@
     margin-bottom: 1rem;
   }
   .skills-card img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     padding: 1.25rem;
   }
 /*   
@@ -22,8 +22,8 @@
   .skills-card{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap:10px;
-    margin-left: 200px;
+    gap:12px;
+    /* margin-left: 200px; */
   }
   .skills-card-img:hover{
     border-radius: 40;

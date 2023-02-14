@@ -100,7 +100,7 @@
       padding: 13px;
     }
     .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
-      background-color: rgba(0, 0, 0, 0.3);
+      background-color: #0b9ca1;
     }
     .nav > .nav-btn > label > span {
       display: block;
@@ -125,9 +125,6 @@
     }
 
     /*   */
-
-
-    
       .nav > .nav-links > ul li{
         display: block;
         margin-bottom: 20px;
