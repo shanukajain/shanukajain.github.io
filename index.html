@@ -52,15 +52,15 @@
               <li><a class="nav-link projects" href="#projects">PROJECTS</a></li>
               <li><a class="nav-link contact" href="#contact">CONTACT</a></li>
       
-             <li> <a
+             <li><a
               class="nav-link resume"
                 id="resume-button-1"
-                onclick="window.open('./resume/Shanuka_Jain_Resume.pdf', '_blank');"
+               href="./resume/Shanuka-Jain-Resume.pdf"
                 download=""
-                >RESUME</a
+                >RESUME<i class="fa fa-download" style="color:#0b9ca1;"></i></a
               ></li>
           <a class="icon">
-           <a href="mailto:jain.shanuka@gmail.com"> <i class="material-icons" style="font-size:25px">&#xe158;</i></a>
+           <a href="mailto:jain.shanuka@gmail.com"> <i class="fa fa-envelope" style="font-size:25px"></i></a>
             <a href="https://www.linkedin.com/in/shanukajain/"><i class="fa fa-linkedin"style="font-size:25px"></i></a>
            <a href="https://github.com/shanukajain"><i class="fa fa-github"style="font-size:25px"></i></a> 
           </a>
@@ -78,7 +78,7 @@
           id="user-detail-name"
           class="typewrite"
           data-period="2000"
-          data-type='[ "Full-Stack Web Developer.", "NodeJS Developer.", "+1200hr Coding Experirnce", "Problem Solver." ]'
+          data-type='[ "Full-Stack Web Developer.", "NodeJS Developer.", "+1200hr Coding Experience", "Problem Solver." ]'
         >
           <span class="wrap"></span>
         </a>
@@ -93,7 +93,7 @@
       
       <a
       id="resume-button-2"
-      onclick="window.open('./resume/Shanuka_Jain_Resume.pdf', '_blank');"
+      href="./resume/Shanuka-Jain-Resume.pdf"
       download=""
       ><h3 id="about_resume">Resume  <i class="fa fa-download"></i></h3></a>
       <h2 id="user-detail-intro">
@@ -137,7 +137,7 @@
         <!-- <div class="second-set animate__animated animate__pulse"> -->
           <img
           class="skills-card-img"
-            src="./images/node.jpeg"
+            src="./images/node.png"
             alt=""
             loading="lazy"
             class="icon icon-card"
@@ -195,39 +195,52 @@
       <h1>Projects</h1>
       <div id="projectsdiv"> 
       <div class="project-card">
-        <img src="./images/log.png" alt="">
+        <div id= "projectimg">
+      <img src="./images/logo.png" alt="" ></div>
+      <div  style="width: 50%;">
         <title class="project-title">myshoppinghub</title>
         <p class="project-description">Description</p>
         <p class="project-tech-stack">Tech Stack</p>
         <a class="project-github-link" href="https://github.com/shanukajain/wonderful-kiss-9318.git">GitHub</a>
         <a class="project-deployed-link"href="https://myshoppinghub.netlify.app">Netlify</a>
       </div>
-      <!-- 2 -->
+    </div>
       <div class="project-card">
-        <img src="./images/log.png"alt="">
+       
+        <div style="width: 50%;">
         <title class="project-title">myshoppinghub</title>
         <p class="project-description">Description</p>
         <p class="project-tech-stack">Tech Stack</p>
         <a class="project-github-link" href="https://github.com/shanukajain/wonderful-kiss-9318.git">GitHub</a>
         <a class="project-deployed-link"href="https://myshoppinghub.netlify.app">Netlify</a>
+      </div>
+      <div id= "projectimg">
+        <img src="./images/logo.png"alt="">
+        </div>
       </div>
       <!-- 3 -->
       <div class="project-card">
-        <img src="./images/logo.png" alt="">
+        <div id= "projectimg">
+        <img src="./images/log.png" alt=""></div>
+<div  style="width: 50%;">
         <title class="project-title">KPC</title>
         <p class="project-description">Description</p>
         <p class="project-tech-stack">Tech Stack</p>
         <a class="project-github-link" href="https://github.com/rajeshuser/tall-question-6900.git">GitHub</a>
         <a class="project-deployed-link"href="https://kpc.netlify.app/">Netlify</a>
       </div>
+    </div>
       <!-- 4 -->
       <div class="project-card">
-        <img src="./images/My.png" alt="">
+        <div style="width: 50%;">
         <title class="project-title">Mywants</title>
         <p class="project-description">Description</p>
         <p class="project-tech-stack">Tech Stack</p>
         <a class="project-github-link" href="https://github.com/shanukajain/hilarious-flame-4763.git">GitHub</a>
         <a class="project-deployed-link"href="https://mywants.netlify.app/">Netlify</a>
+      </div>
+      <div id= "projectimg">
+        <img src="./images/My.png" alt=""></div>
       </div>
     </div>
     </section>
@@ -274,11 +287,12 @@ href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.c
  <section id="contact">
       
   <h1>Contact</h1>
-  <a id="contact-github" href="https://github.com/shanukajain"><i class="fa fa-github"style="font-size:25px"></i>GitHub</a>
+  <h3><a id="contact-github" href="https://github.com/shanukajain"><i class="fa fa-github"style="font-size:25px"></i> : GitHub</a></h3>
 
-  <a id="contact-linkedin" href="https://www.linkedin.com/in/shanukajain/"><i class="fa fa-linkedin"style="font-size:25px"></i>Linkedin</a>
-  <a id="contact-phone" href="#">Mobile</a>
-  <a id="contact-email" href="mailto:jain.shanuka@gmail.com"><i class="material-icons" style="font-size:25px">&#xe158;</i>Email</a>
+  <h3><a id="contact-linkedin" href="https://www.linkedin.com/in/shanukajain/"><i class="fa fa-linkedin"style="font-size:25px"></i> : Linkedin</a></h3>
+ <h3> <a id="contact-phone" href="#">Mobile : 9893553780</a></h3>
+ <h3> <a id="contact-email" href="mailto:jain.shanuka@gmail.com"><i class="fa fa-envelope" style="font-size:25px;"></i> : Email</a></h3>
+ <h3> <a id="contact-email" href="https://goo.gl/maps/XMHWXcYcdoAGRmq26"><i class="fa fa-map-marker" style="font-size:25px;"></i> : Kota Rajsthan</a></h3>
 </section>
   </body>
 </html>

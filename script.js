@@ -56,3 +56,13 @@ var TxtType = function (el, toRotate, period) {
     css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
     document.body.appendChild(css);
   };
+
+
+
+  document.getElementById("resume-button-2").addEventListener("click",()=>{
+    window.open("https://drive.google.com/file/d/1QVLRLXezrsupO0q7qGwoqpo2n4bKZHcl/view?usp=share_link","_blank")
+  })
+  
+  document.getElementById("resume-button-1").addEventListener("click",()=>{
+    window.open("https://drive.google.com/file/d/1QVLRLXezrsupO0q7qGwoqpo2n4bKZHcl/view?usp=share_link","_blank")
+  })
