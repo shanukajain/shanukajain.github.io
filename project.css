@@ -42,6 +42,16 @@
   margin-top: 2.5rem;
   color: #0b9ca1; 
 }
+#imgtech{
+  width: 70%;
+  margin-left:15% ;
+display: grid;
+grid-template-columns: repeat(4,1fr);
+}
+#imgtech>img{
+  width: 50px;
+  height: 50px;
+}
 @media (max-width:750px) {
   #projectimg{
     width: 50%;
