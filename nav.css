@@ -163,3 +163,6 @@ a{
       overflow-y: auto;
     }
   }
+  .resume{
+    border: 1px solid white;
+  }

@@ -1,6 +1,8 @@
 #skills {
+
     max-width: 78.75rem;
     margin: auto;
+    padding-top: 100px;
     text-align: center;
     /* margin-top: 2.5rem; */
     color: #0b9ca1;
@@ -22,7 +24,7 @@
   .skills-card{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap:12px;
+    gap:10px;
     /* margin-left: 200px; */
   }
   .skills-card-img:hover{
@@ -32,13 +34,13 @@
   @media  screen and (max-width: 1200px) and (min-width: 749px) {
     .skills-card{
       display: grid;
-      grid-template-columns: repeat(2,1fr);
+      grid-template-columns: repeat(3,1fr);
     }
   }
 
   @media (max-width:750px) {
     .skills-card{
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(2,1fr);
       }
   }
