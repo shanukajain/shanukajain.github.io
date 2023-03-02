@@ -206,6 +206,6 @@ grid-template-columns: repeat(4,1fr);
    gap:10px;
 }
 .project-buttons{
-   width:70%;
+   width:60%;
 }
 }
