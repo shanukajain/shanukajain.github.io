@@ -68,7 +68,6 @@ grid-template-columns: repeat(4,1fr);
   background-color: white;
   color: #0b9ca1;
   padding: 40px 0;
-
 }
 #projects>h1{
   text-align: center;
@@ -144,17 +143,27 @@ grid-template-columns: repeat(4,1fr);
   justify-content: space-around;
   transition: transform .2s;
 }
-.project-buttons:hover{
-  transform: scale(1.1);
+.project-github-link{
+  transition: transform .2s;
+}
+.project-github-link:hover{
+  transform: scale(1.5);
 }
 .project-github-link{
   font-size: 45px;
   color: black;
 }
+
 .project-deployed-link{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-size: 40px;
+color: black;
+  transition: transform .2s;
+}
+.project-deployed-link:hover{
+  transform: scale(1.5);
 }
 .project-deployed-link>button{
   background-color: black;
@@ -162,7 +171,7 @@ grid-template-columns: repeat(4,1fr);
   color:white;
   padding:5px 15px;
   border-radius: 5px;
-  font-size: 17px;
+  font-size: 40px;
 }
 
 
