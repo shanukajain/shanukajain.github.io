@@ -15,6 +15,12 @@ font-size: 40px;
 margin-top: 170px;
 color: #0b9ca1;
 }
+#about_resume{
+border: 5px solid #0b9ca1;
+background-color: transparent;
+color: #0b9ca1;
+padding: 10px;
+}
 
 
 
