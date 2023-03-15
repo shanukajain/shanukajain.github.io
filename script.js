@@ -66,3 +66,7 @@ var TxtType = function (el, toRotate, period) {
   document.getElementById("resume-button-1").addEventListener("click",()=>{
     window.open("https://drive.google.com/file/d/1QVLRLXezrsupO0q7qGwoqpo2n4bKZHcl/view?usp=share_link","_blank")
   })
+
+  function resume() {
+    window.location.assign('https://drive.google.com/file/d/1QVLRLXezrsupO0q7qGwoqpo2n4bKZHcl/view?usp=share_link');
+  }
