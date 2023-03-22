@@ -68,5 +68,6 @@ var TxtType = function (el, toRotate, period) {
   // })
 
   function resume() {
-    window.location.assign('https://drive.google.com/file/d/1QVLRLXezrsupO0q7qGwoqpo2n4bKZHcl/view?usp=share_link');
+    window.open("https://drive.google.com/file/d/1QVLRLXezrsupO0q7qGwoqpo2n4bKZHcl/view?usp=share_link","_blank")
+    // window.location.assign('https://drive.google.com/file/d/1QVLRLXezrsupO0q7qGwoqpo2n4bKZHcl/view?usp=share_link');
   }
