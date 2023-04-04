@@ -6,7 +6,17 @@
     margin: 0px;
     font-family: 'segoe ui';
   }
-  
+  #resume-button-1{
+    background-color: #0b9ca1;
+    border: 1px solid white;
+    transition: transform .2s;
+    height: 40px;
+  }
+  #resume-button-1 :hover{
+    transform: scale(1.5);
+    color:white ;
+  }
+
   .nav {
     height: 50px;
     width: 100%;
@@ -162,13 +172,4 @@ a{
       overflow-y: auto;
     }
   }
-  #resume-button-1{
-    background-color: #0b9ca1;
-    border: 1px solid white;
-    transition: transform .2s;
-    height: 40px;
-  }
-  #resume-button-1 :hover{
-    transform: scale(1.5);
-    color:white ;
-  }
+ 
