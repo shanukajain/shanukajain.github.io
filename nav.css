@@ -17,8 +17,9 @@
   }
 
   .nav {
-    height: 60px;
+    height: 55px;
     width: 100%;
+    padding-top: 5px;
     background-color: #0b9ca1;
     top:0;
     z-index: 6;

@@ -1,5 +1,5 @@
 
-  GitHubCalendar(".calendar", "shanukajain");
+  // GitHubCalendar(".calendar", "shanukajain");
 
   // or enable responsive functionality:
   GitHubCalendar(".calendar", "shanukajain", { responsive: true });
