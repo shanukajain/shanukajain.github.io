@@ -136,22 +136,19 @@ grid-template-columns: repeat(4,1fr);
   height:55px;
 }
 .project-buttons{
-  /* border:1px solid red; */
-  width:50%;
   margin:auto;
   display: flex;
   justify-content: space-around;
-  transition: transform .2s;
+  height: 30px;
+  /* transition: transform .2s; */
 }
-.project-github-link{
-  transition: transform .1s;
-}
-.project-github-link:hover{
-  transform: scale(1.5);
-}
+
+
 .project-github-link{
   font-size: 20px;
   color: black;
+  /* padding: 10px; */
+  border: 1px solid black;
 }
 
 .project-deployed-link{
@@ -160,16 +157,15 @@ grid-template-columns: repeat(4,1fr);
   justify-content: center;
   font-size: 20px;
 color: black;
-  transition: transform .2s;
+padding: 10px;
+border: 1px solid black;
 }
-.project-deployed-link:hover{
-  transform: scale(1.5);
-}
+
 .project-deployed-link>button{
   background-color: black;
   border:none;
   color:white;
-  padding:5px 15px;
+  padding:5px 5px 5px 5px;
   border-radius: 5px;
   font-size: 40px;
 }
