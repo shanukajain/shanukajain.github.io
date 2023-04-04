@@ -7,10 +7,15 @@
 #about_resume{
     font-size: 30px;
 }
+#user{
+    padding-top: 79px;
+}
 #user-detail-intro{
 text-align: justify;
-padding: 79px;
+padding-left: 40px;
+padding-right: 40px;
 }
 #resume-button-2{
     font-size: 30px;
+    margin-bottom: 79px;
 }
