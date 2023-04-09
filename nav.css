@@ -171,5 +171,12 @@ a{
       height: calc(100vh - 50px);
       overflow-y: auto;
     }
+      #resume-button-1{
+       margin-left: 45%;
+       text-align: center;
+       
+      }
+      #resume-button-1>a{
+        margin-left: -30px;
+       }
   }
- 
