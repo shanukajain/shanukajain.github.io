@@ -213,4 +213,7 @@ border: 1px solid black;
 .project-buttons{
    width:60%;
 }
+.project-deployed-link{
+  font-size: 15px;
+}
 }
