@@ -76,8 +76,8 @@ a.icon{
     color: #482ff7;
 }
 .nav-logo {
-    font-size: 1.8rem;
-    font-weight: 500;
+    /* font-size: 1.8rem; */
+    /* font-weight: 500; */
         color: #fff;
 }
 #resume-button-1{
@@ -101,10 +101,6 @@ a.icon{
  .icon{
       display: none;
     }
-    .nav-logo {
-        font-size: 1.5rem;
-        font-weight: 300;
-    }
     .nav-link{
         font-size: 1rem;
         font-weight: 400;
@@ -113,12 +109,11 @@ a.icon{
         font-weight: 300;
         padding: 10px;
     }
-    
     .nav-item {
         margin-left: 3rem;
     }
   }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 750px) {
     .nav-menu {
         position: fixed;
         left: -100%;

@@ -34,6 +34,7 @@ margin-top: 40px;
 #contact{
   background-color: #0b9ca1 ;
     /* max-width: 68.75rem; */
+    width: 100%;
     margin: auto;
     text-align: center;
     /* margin-top: 2.5rem; */
