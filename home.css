@@ -1,7 +1,7 @@
 #home{
     display: flex;
     margin: auto;
-    margin-top: 70px;
+    margin-top: 80px;
     justify-content: space-evenly;
 }
 
@@ -21,8 +21,13 @@ background-color: transparent;
 color: #0b9ca1;
 padding: 10px;
 }
-
-
+#user{
+  font-size: 30px;
+  padding: 30px;
+}
+#resume-button-2{
+margin-top: 40px;
+}
 
 
 /* contact */
@@ -39,6 +44,14 @@ padding: 10px;
     text-decoration: none;
     color: white;
   }
+  
+   #contact a> i{
+    background-color: #0b9ca1;
+      border-radius: 0px;
+      padding: 7px;
+      margin-left: 5px;
+   }
+  
   /* react-activity-calendar */
   .react-activity-calendar{
     max-width: 68.75rem;
@@ -47,6 +60,9 @@ padding: 10px;
     /* margin-top: 2.5rem; */
     color: #0b9ca1; 
   }
+  /* .contact>i{
+    color: #0b9ca1; 
+  } */
   @media  screen and (max-width: 1200px) and (min-width: 749px) {
     #user-detail-name{
       font-size: 30px;

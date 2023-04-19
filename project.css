@@ -6,6 +6,7 @@
 #projects>h1{
   text-align: center;
   text-decoration: underline;
+  margin-top: 90px;
 }
 .projects-body{
   /* border:1px solid black; */

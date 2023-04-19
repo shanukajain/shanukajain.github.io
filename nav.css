@@ -80,10 +80,11 @@
     display: none;
   }
 
- .nav .nav-links ul a.icon{
- margin-left: 80px;
- margin-right: 10px;
- }
+  .nav .nav-links ul a.icon{
+  margin-left: 80px;
+  margin-right: 10px;
+  
+  }
 
  .nav .nav-links ul a i{
     background-color: #fff;
@@ -94,7 +95,7 @@
 
 a{
     text-decoration: none;
-    color:#0b9ca1 ;
+    /* color:#0b9ca1 ; */
   }
   @media  screen and (max-width: 1200px) and (min-width: 749px) {
     .nav > .nav-links > ul li a{
@@ -133,15 +134,15 @@ a{
       border-top: 2px solid #eee;
     }
     .nav > .nav-links {
-      position: absolute;
-      display: block;
-      width: 100%;
-      background-color: #333;
-      height: 0px;
-      transition: all 0.3s ease-in;
-      overflow-y: hidden;
-      top: 50px;
-      left: 0px;
+        position: absolute;
+        display: block;
+        width: 100%;
+        background-color: #333;
+        height: 0px;
+        transition: all 0.3s ease-in;
+        overflow-y: hidden;
+        top: 50px;
+        left: 0px;
     }
     .nav > .nav-links > ul li a {
       display: block;

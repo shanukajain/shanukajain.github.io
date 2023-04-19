@@ -71,3 +71,20 @@ var TxtType = function (el, toRotate, period) {
     window.open("https://drive.google.com/file/d/1QVLRLXezrsupO0q7qGwoqpo2n4bKZHcl/view?usp=share_link","_blank")
     // window.location.assign('https://drive.google.com/file/d/1QVLRLXezrsupO0q7qGwoqpo2n4bKZHcl/view?usp=share_link');
   }
+  const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+const navLink = document.querySelectorAll(".nav-link");
+
+hamburger.addEventListener("click", mobileMenu);
+
+function mobileMenu() {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+}
+
+navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+function closeMenu() {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+}

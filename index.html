@@ -7,14 +7,15 @@
     <title>HOME PAGE</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="./nav.css" />
+    <link rel="stylesheet" href="./nav1.css" />
+    <!-- <link rel="stylesheet" href="./nav.css"> -->
     <link rel="stylesheet" href="./home.css">
     <link rel="stylesheet" href="./about.css">
     <link rel="stylesheet" href="./skills.css">
     <link rel="stylesheet" href="./project.css">
   </head>
   <body>
-    <nav id="nav-menu" class="nav-links">
+    <!-- <nav id="nav-menu" class="nav-links"> -->
       <!-- <ul id="navbar">
         <li><a class="nav-link home" href="#home">HOME</a></li>
         <li><a class="nav-link about" href="#about">ABOUT</a></li>
@@ -29,7 +30,7 @@
           >RESUME</a
         ></li>
       </ul> -->
-      <div class="nav" >
+      <!-- <div class="nav" >
         <input type="checkbox" id="nav-check">
         <div class="nav-header">
           <div class="nav-title">
@@ -53,22 +54,51 @@
               <li><a class="nav-link contact" href="#contact">CONTACT</a></li>
               <li class="nav-link resume" id="resume"> <button onclick="resume()" id="resume-button-1"><a id="resume-link-1"
                 href="./resume/fw22_0194_Shanuka-Jain-Resume.pdf" target="_blank" download="fw22_0194_Shanuka_Jain_Resume.pdf">Resume</a></button>
-          </li>
+          </li> -->
              <!-- <li onclick="resume()" class="nav-link resume"><a
                 id="resume-button-1"
                href="./resume/fw22_0194_Shanuka-Jain-Resume.pdf"
                 download=""
                 >RESUME<i class="fa fa-download" style="color:#0b9ca1;"></i></a
               ></li> -->
-          <a class="icon">
+              <header class="header">
+                <nav class="navbar">
+                    <a href="#" class="nav-logo">Shanuka Jain</a>
+                    <ul class="nav-menu">
+                        <li class="nav-item">
+                           <a class="nav-link home" href="#home">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link about" href="#about">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link skills" href="#skills">SKILLS</a>
+                        </li>
+                        <li class="nav-item">
+                         <a class="nav-link projects" href="#projects">PROJECTS</a>
+                        </li>
+                      <li class="nav-item">
+                           <a class="nav-link contact" href="#contact">CONTACT</a>
+                        </li>
+                      <li class="nav-item">
+                             <button onclick="resume()" id="resume-button-1"><a id="resume-link-1"
+                        href="./resume/fw22_0194_Shanuka-Jain-Resume.pdf" target="_blank" download="fw22_0194_Shanuka_Jain_Resume.pdf">Resume</a></button>
+                        </li>
+                        <li>
+          <div class="icon">
            <a target="_blank"href="https://mail.google.com/mail/?view=cm&fs=1&to=jain.shanuka@gmail.com"> <i class="fa fa-envelope" style="font-size:25px"></i></a>
             <a target="_blank"href="https://www.linkedin.com/in/shanukajain/"><i class="fa fa-linkedin"style="font-size:25px"></i></a>
-           <a target="_blank"href="https://github.com/shanukajain"><i class="fa fa-github"style="font-size:25px"></i></a> 
+           <a target="_blank"href="https://github.com/shanukajain"><i class="fa fa-github"style="font-size:25px"></i></a> </div>
+          </li>
           </a>
-            </ul>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
         </div>
-      </div>
     </nav>
+</header>
     <!-- <hr> -->
     <!-------------------- HOME ---------------------->
     <section id="home">
@@ -97,7 +127,7 @@
       href="./resume/fw22_0194_Shanuka-Jain-Resume.pdf"
       download=""
       ><button id="about_resume" onclick="resume()">Resume  <i class="fa fa-download"></i></button></a> -->
-      <h2 id="user">About Me</h2>
+      <h1 id="user">About Me</h1>
       <h2 id="user-detail-intro">
         I am a Developer who know HTML, CSS, JAVASCRIPT, NODEJS, EXPRESS.JS,
         MONGODB, POSTMAN.
@@ -577,12 +607,12 @@ href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.c
  <section id="contact">
       
   <h1>Contact</h1>
-  <h3><a id="contact-github"target="_blank" href="https://github.com/shanukajain"><i class="fa fa-github"style="font-size:25px"></i> : shanukajain</a></h3>
+  <h3><a class="contact" id="contact-github"target="_blank" href="https://github.com/shanukajain"><i class="fa fa-github"style="font-size:25px"></i> : shanukajain</a></h3>
 
-  <h3><a id="contact-linkedin"target="_blank" href="https://www.linkedin.com/in/shanukajain/"><i class="fa fa-linkedin"style="font-size:25px"></i> : shanukajain</a></h3>
- <h3> <a id="contact-phone">Mobile : +91-9893553780</a></h3>
- <h3> <a id="contact-email"target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&to=jain.shanuka@gmail.com"><i class="fa fa-envelope" style="font-size:25px;"></i> : jain.shanuka@gmail.com</a></h3>
- <h3> <a id="contact-email"target="_blank" href="https://goo.gl/maps/XMHWXcYcdoAGRmq26"><i class="fa fa-map-marker" style="font-size:25px;"></i> : Kota Rajsthan</a></h3>
+  <h3><a class="contact" id="contact-linkedin"target="_blank" href="https://www.linkedin.com/in/shanukajain/"><i class="fa fa-linkedin"style="font-size:25px"></i> : shanukajain</a></h3>
+ <h3> <a class="contact" id="contact-phone">Mobile : +91-9893553780</a></h3>
+ <h3> <a class="contact" id="contact-email"target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&to=jain.shanuka@gmail.com"><i class="fa fa-envelope" style="font-size:25px;"></i> : jain.shanuka@gmail.com</a></h3>
+ <h3> <a class="contact" id="contact-email"target="_blank" href="https://goo.gl/maps/XMHWXcYcdoAGRmq26"><i class="fa fa-map-marker" style="font-size:25px;"></i> : Kota Rajsthan</a></h3>
 </section>
   </body>
 </html>

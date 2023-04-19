@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /* font-size: 62.5%; */
+    font-family: 'segoe ui';
+}
+
+li {
+    list-style: none;
+}
+i{
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 7px;
+    margin-left: 5px;
+ }
+a {
+    text-decoration: none;
+    color:#0b9ca1 ;
+}
+a.icon{
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+.header{
+    border-bottom: 1px solid #E2E8F0;
+    background-color: #0b9ca1;
+}
+
+.navbar {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    z-index: 100;
+    background-color: #0b9ca1;
+    width: 100%;
+}
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 5rem;
+}
+
+.nav-link{
+    font-size: 1rem;
+    font-weight: 400;
+        color: #fff;
+}
+
+.nav-link:hover{
+    color: #482ff7;
+}
+.nav-logo {
+    font-size: 1.8rem;
+    font-weight: 500;
+        color: #fff;
+}
+#resume-button-1{
+    background-color: #0b9ca1;
+    border: 1px solid white;
+    transition: transform .2s;
+    height: 40px;
+   
+  }
+  #resume-button-1 :hover{
+    transform: scale(1.5);
+  }
+  #resume-link-1{
+    color: white;
+    padding: 20px;
+    font-weight: 400;
+    /* font-size: 20px; */
+  }
+
+  @media  screen and (max-width: 1200px) and (min-width: 749px) {
+ .icon{
+      display: none;
+    }
+    .nav-logo {
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+    .nav-link{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    #resume-link-1{
+        font-weight: 300;
+        padding: 10px;
+    }
+    .nav-item {
+        margin-left: 3rem;
+    }
+  }
+@media only screen and (max-width: 768px) {
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+            color: #101010;
+            
+    }
+    .nav-link{
+        color: black;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 2.5rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+  
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    #resume-link-1{
+        color: black;
+    }
+
+}
