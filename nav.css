@@ -111,7 +111,7 @@ a{
     }
 
   }
-  @media (max-width:750px) {
+  @media (max-width:480px) {
     .nav > .nav-btn {
       display: inline-block;
       position: absolute;

@@ -116,10 +116,14 @@ border: 1px solid black;
 }
 .project-img{
    width:100%;
+   height: auto;
 }
 .project-info{
    margin-top: 20px;
    width:100%;
+}
+.project-tech-stack>{
+gap:20px;
 }
 }
 
@@ -132,8 +136,8 @@ border: 1px solid black;
    width:98%;
 }
 .project-tech-stack>div>img{
-  width:70%;
-  height:50px;
+  width:50%;
+  height:30px;
 }
 
 .project-info{
