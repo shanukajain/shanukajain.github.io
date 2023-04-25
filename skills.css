@@ -37,8 +37,8 @@
       grid-template-columns: repeat(3,1fr);
     }
     .skills-card img {
-      width: 125px;
-      height: 125px;
+      width: 140px;
+      height: 140px;
       padding: 1.25rem;
     }
   }
