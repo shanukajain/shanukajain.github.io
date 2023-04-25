@@ -36,11 +36,21 @@
       display: grid;
       grid-template-columns: repeat(3,1fr);
     }
+    .skills-card img {
+      width: 125px;
+      height: 125px;
+      padding: 1.25rem;
+    }
   }
 
   @media (max-width:750px) {
     .skills-card{
         display: grid;
         grid-template-columns: repeat(2,1fr);
+      }
+      .skills-card img {
+        width: 100px;
+        height: 100px;
+        padding: 1.25rem;
       }
   }

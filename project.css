@@ -67,7 +67,7 @@
   justify-content: space-evenly;
 }
 .project-tech-stack>div>img{
-  width:100%;
+  width:55px;
   height:55px;
 }
 .project-buttons{
@@ -136,8 +136,8 @@ gap:20px;
    width:98%;
 }
 .project-tech-stack>div>img{
-  width:50%;
-  height:30px;
+  width:50px;
+  height:50px;
 }
 
 .project-info{
@@ -147,7 +147,7 @@ gap:20px;
 .project-tech-stack{
    display: grid;
    grid-template-columns: repeat(3,1fr);
-   gap:10px;
+   gap:20px;
 }
 .project-buttons{
    width:60%;
@@ -155,4 +155,11 @@ gap:20px;
 .project-deployed-link{
   font-size: 15px;
 }
+}
+
+@media (max-width:750px) {
+  .project-tech-stack>div>img{
+    width:30px;
+    height:30px;
+  }
 }
