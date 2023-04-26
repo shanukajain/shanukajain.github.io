@@ -19,3 +19,8 @@ padding-right: 40px;
     font-size: 30px;
     margin-bottom: 79px;
 }
+@media (max-width:748px) {
+    #about{
+        font-size: 15px;
+    }
+}

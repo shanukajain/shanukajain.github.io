@@ -11,6 +11,7 @@
     border: 1px solid white;
     transition: transform .2s;
     height: 40px;
+    
   }
   #resume-button-1 :hover{
     transform: scale(1.5);
@@ -101,7 +102,7 @@ a{
     .nav > .nav-links > ul li a{
       font-size: 15px;
       padding: 0 10px;
-      /* font-weight: 300; */
+      font-weight: 300;
     }
     .nav > .nav-header > .nav-title{
       font-size: 20px;
@@ -111,18 +112,21 @@ a{
     }
 
   }
-  @media (max-width:480px) {
+  @media (max-width:748px) {
     .nav > .nav-btn {
       display: inline-block;
       position: absolute;
       right: 0px;
       top: 0px;
+    
     }
+ 
     .nav > .nav-btn > label {
       display: inline-block;
       width: 50px;
       height: 50px;
       padding: 13px;
+    
     }
     .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
       background-color: #0b9ca1;
@@ -132,6 +136,7 @@ a{
       width: 25px;
       height: 10px;
       border-top: 2px solid #eee;
+    
     }
     .nav > .nav-links {
         position: absolute;
@@ -141,12 +146,14 @@ a{
         height: 0px;
         transition: all 0.3s ease-in;
         overflow-y: hidden;
-        top: 50px;
+        top: 30px;
         left: 0px;
+        
     }
     .nav > .nav-links > ul li a {
       display: block;
       width: 100%;
+      
     }
 
     /*   */
@@ -159,6 +166,7 @@ a{
       }
       .nav > .nav-links > ul li a{
           margin-left: 40%;
+        
       }
       .nav .nav-links ul a.icon{
         margin-left: 33%;
@@ -175,9 +183,15 @@ a{
       #resume-button-1{
        margin-left: 45%;
        text-align: center;
-       
       }
       #resume-button-1>a{
         margin-left: -30px;
+        
        }
+       #resume-link-1 {
+        color: white;
+        padding: 20px;
+        font-weight: 400;
+        font-size: 20px;
+    }
   }
