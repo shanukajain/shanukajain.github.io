@@ -129,10 +129,17 @@ gap:20px;
 }
 
 @media all and (min-width:279px) and (max-width:700px){
+  #projects{
+    padding: 0;
+    margin-left: -20px;
+  }
   .project-card{
    display: block;
-   padding:7px;
+   width: 100vw;
+   margin: 0;
+   padding: 5px;
 }
+
 .project-img{
    width:98%;
 }
@@ -155,19 +162,23 @@ gap:20px;
 }
 .project-deployed-link{
   font-size: 15px;
+
 }
 }
 
 @media (max-width:750px) {
   .project-tech-stack>div>img{
-    width:30px;
-    height:30px;
+    width:20px;
+    height:20px;
   }
   .project-tech-stack{
     display: flex;
-    gap:10px;
+    gap:5px;
  }
   .project-tech-stack>div>p{
   display: none
+  }
+  .project-deployed-link{
+    border: 0px;
   }
 }
